@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.characters--container
+{
+    margin-left: 250px;
+    background-color: rgb(34 ,34, 34);
+    height: 78vh;
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.characters--info
+{
+    flex: 1;
+    height: 80%;
+    border: 1px solid gold;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.characters--info-header
+{
+    width: calc(100% - 1px);
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: StarWars;
+}
+
+.characters--info-item
+{
+  width: calc(100% - 1px);
+  height: 70px;
+  background-color: rgb(34, 34, 34);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.characters--info-item-logged-user
+{
+  cursor: pointer;
+}
+
+.characters--info-item-logged-user:hover
+{
+    border: 1px solid red;
+}

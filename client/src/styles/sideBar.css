@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar--container
+{
+    border: 1px solid black;
+    width: 250px;
+    height: 584px;
+    background-color: rgb(31, 31, 31);
+    margin-bottom: -586px;
+}
+
+.side-bar--item-box
+{
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+.side-bar--item-box p 
+{
+    margin-left: 20px;
+}
+
+.side-bar--item-box:hover
+{
+    border: 1px solid green;
+}
